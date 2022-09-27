@@ -15,13 +15,15 @@ class Ninja {
     drinkSake(){
         console.log(this.salud += 10);
     }
-
+   
 }
 
 const  ninja1 = new Ninja("Horus", 10, 7,15);
 ninja1.sayName();
 ninja1.showStats();
 ninja1.drinkSake();
+
+module.exports = Ninja;
 
 
 
